@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+          
+    --cor-destaque: #C92071;
+    --cor-gradiente-primaria: #B5B6F2;
+    --cor-branca: #FFFFFF;
+    --cor-gradiente-secundaria: #EFEFFF;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    div {
+        width: 11.125rem; height: 4rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .2725rem;
+
+        span {
+            font-weight: 600;
+            font-size: 19.85px;
+            color: var(--cor-destaque);
+        }
+    }
+}
+
+main {
+    padding: 3.9375rem 0 5rem;
+    background: linear-gradient(
+        var(--cor-gradiente-primaria),
+        var(--cor-gradiente-secundaria)
+        );
+
+    form{
+        margin: 3.9375rem auto 5rem;
+        width: 19.6875rem; height: 35.75rem;
+        background-color: var(--cor-branca);
+        
+    }
+}
