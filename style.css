@@ -45,8 +45,9 @@ main {
         );
 
     form{
-        margin: 3.9375rem auto 5rem;
-        width: 19.6875rem; height: 35.75rem;
+        width: 19.6875rem;
+        height: 35.75rem;
+        margin: 0 auto;
         background-color: var(--cor-branca);
         
     }
