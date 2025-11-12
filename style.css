@@ -6,6 +6,8 @@
     --cor-gradiente-primaria: #B5B6F2;
     --cor-branca: #FFFFFF;
     --cor-gradiente-secundaria: #EFEFFF;
+    --cor-titulo: #1F1F1F;
+    --cor-paragrafo: #474747;
 
 }
 
@@ -49,6 +51,24 @@ main {
         height: 35.75rem;
         margin: 0 auto;
         background-color: var(--cor-branca);
-        
+        padding: 1.875rem;
+        color: var(--cor-paragrafo);
+
+        .titulo{
+
+            h1{
+                font-size: 1.375rem;
+                letter-spacing: .125rem;
+                text-align: center;
+                color: var(--cor-titulo);
+                line-height: 2.125rem;
+            }
+
+            p{
+                font-size: .875rem;
+                letter-spacing: .0156rem;
+                text-align: center;
+            }
+        }
     }
 }
